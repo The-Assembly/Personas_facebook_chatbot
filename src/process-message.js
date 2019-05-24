@@ -1,12 +1,14 @@
 const fetch = require('node-fetch');
 const WolframAlphaAPI = require('wolfram-alpha-api');
-const waApi = WolframAlphaAPI('LEW6X9-KQE35A79XQ');
 
-const PERSONA_ID_1 = "303613297256920";
-const PERSONA_ID_2 = "310896603161942";
+//You can find your WolframAlpha API Key by clicking on Edit under your app name.
+const waApi = WolframAlphaAPI('ENTER YOUR WOLFRAMALPHA API KEY'); //http://developer.wolframalpha.com/portal/myapps/index.html
+
+const PERSONA_ID_1 = "YOUR FIRST PERSONA ID";
+const PERSONA_ID_2 = "YOUR SECOND PERSONA ID";
 
     // You can find your project ID in your Dialogflow agent settings
-    const projectId = 'personasbot'; //https://dialogflow.com/docs/agents#settings
+    const projectId = 'DIALOGFLOW PROJECT ID'; //https://dialogflow.com/docs/agents#settings
     const sessionId = '123456';
     const languageCode = 'en-US';
 
