@@ -213,6 +213,7 @@ module.exports = (req, res) => {
 
 Refer this link : https://developers.facebook.com/docs/messenger-platform/reference/personas-api/
 
+To make Http Requests online : https://reqbin.com/ 
 
 ## 9: Implementing WolframAlpha API for intelligent responses
 
