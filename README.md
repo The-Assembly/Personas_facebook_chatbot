@@ -1,6 +1,6 @@
 # Personas Facebook Chatbot
 
-##1. Install Node.js
+## 1. Install Node.js
 
 ### Windows
 *1. Download Node.js* (https://nodejs.org/en/) *(LTS Version Recommended)  and Git*  (https://git-scm.com/downloads) <br/>
@@ -23,13 +23,13 @@ Check node & npm version
     npm -v
 
 
-##2. Setting up a Facebook Page
+## 2. Setting up a Facebook Page
 
-##3. Creating a Facebook App
+## 3. Creating a Facebook App
 
-##4. Dialogflow
+## 4. Dialogflow
 
-##5. Setting up your webhook server
+## 5. Setting up your webhook server
 
 Create a directory with the name of your choice. Inside the directory run the following command. 
 ```
@@ -56,7 +56,7 @@ app.listen(5000, () => console.log('Express server is listening on port 5000'));
 ````
 Save the file and run **node index.js** from the _src_ in the terminal.
 
-##6. Set up Facebook verification endpoint
+## 6. Set up Facebook verification endpoint
 
 Create a file called _verify-webhook.js_ in the _src_ folder.
 ```
@@ -85,7 +85,7 @@ const verifyWebhook = require('./verify-webhook');
 ```` 
 Stop your server by pressing **ctrl + c** and restart it with **node index.js**
 
-#7. Expose your server to the web
+## 7. Expose your server to the web
 
 Go to https://ngrok.com/download and follow the steps to download and install ngrok. Make sure after installation the ngrok file is in your _src_ folder
 ````
