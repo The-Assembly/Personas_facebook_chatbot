@@ -207,7 +207,15 @@ module.exports = (req, res) => {
     res.status(200).end();
     }
 };
+
 ````
+## 8: Creating Personas and implementing Persona to our chatbot
+
+Refer this link : https://developers.facebook.com/docs/messenger-platform/reference/personas-api/
+
+
+## 9: Implementing WolframAlpha API for intelligent responses
+
 First, install the library into your project by running the following command:
 ````
 npm install https://products.wolframalpha.com/api/libraries/javascript/wolfram-alpha-api-1.0.0-rc.1.tgz
