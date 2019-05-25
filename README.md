@@ -229,5 +229,7 @@ const waApi = WolframAlphaAPI('DEMO-APPID');
 ````
 Refer https://products.wolframalpha.com/api/libraries/javascript/ for more information.
 
+"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sunflower_from_Silesia2.jpg/320px-Sunflower_from_Silesia2.jpg"
+
 
 
